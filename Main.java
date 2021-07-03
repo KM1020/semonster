@@ -1,7 +1,10 @@
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Hello SEMonster");
-    Monster monster = new Monster();
-    System.out.println(monster.toString());
+    System.out.println("SEMonster!");
+    Player p1 = new Player();
+    //Monster monster = new Monster();
+    p1.drawMonsters();
+    p1.showDeck();
+    //System.out.println(monster.toString());
   }
 }
